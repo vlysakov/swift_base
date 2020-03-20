@@ -45,7 +45,7 @@ func fibonachiArray (_ value: inout [Double], _ size: Int) {
 }
 
 func simpleNumbers (_ count: Int) -> [Int] {
-    var res = [Int]([2])
+    var res = [Int]()
     var tmp = [Int]()
     var nextVal = 2
     
