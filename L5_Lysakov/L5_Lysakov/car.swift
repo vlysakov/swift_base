@@ -1,8 +1,3 @@
-//
-// Created by Slava V. Lysakov on 06.04.2020.
-// Copyright (c) 2020 Slava V. Lysakov. All rights reserved.
-//
-
 import Foundation
 
 protocol Car {
@@ -19,29 +14,5 @@ protocol Car {
     func runDriveAction(action: DriveAction, _ weight: Int...)
 }
 
-//extension Car {
-//    mutating func runDriveAction(action: DriveAction, _ weight: Int...) {
-//        switch action {
-//            case .startEngine:
-//                deviceLaunched = .running
-//            case .stopEngine:
-//                deviceLaunched = .stoped
-//            case .openWindow:
-//                windowOpen = .open
-//            case .closeWindow:
-//                windowOpen = .close
-//            case .loadBody:
-//                if !weight.isEmpty {
-//                    loadingBody(.loadBody, weight[0])
-//                }
-//            case .unloadBody:
-//                if !weight.isEmpty {
-//                    loadingBody(.unloadBody, weight[0])
-//                }
-//            default:
-//                print("Операция не поддерживается")
-//        }
-//    }
-//}
 
 
