@@ -66,8 +66,12 @@ class Queue<T> {
 extension Queue: CustomStringConvertible where T: CustomStringConvertible {
     var description: String {
         var str = ""
-        items.forEach {
-            str.append("[\($0.description)] ")
+        if !isEmpty() {
+            items.forEach {
+                str.append("[\($0.description)] ")
+            }
+        } else {
+            str = "<empty queue>"
         }
         return str
     }
