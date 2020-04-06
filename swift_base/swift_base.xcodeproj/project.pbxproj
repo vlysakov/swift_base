@@ -35,6 +35,13 @@
 			remoteGlobalIDString = 7E8573A581F7187233B731FE;
 			remoteInfo = L4_Lysakov;
 		};
+		7E857C682CBE6E1BE8D96C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E85707C483124FDECCA3C67 /* L5_Lysakov.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E857D1C4618E5E1F4F8A96C;
+			remoteInfo = L5_Lysakov;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +61,7 @@
 		22C0EAE72424C92C00EB320A /* L1_Lysakov.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = L1_Lysakov.xcodeproj; path = ../L1_Lysakov/L1_Lysakov.xcodeproj; sourceTree = "<group>"; };
 		22C0EB002424C99700EB320A /* L2_Lysakov.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = L2_Lysakov.xcodeproj; path = ../L2_Lysakov/L2_Lysakov.xcodeproj; sourceTree = "<group>"; };
 		22C0EB1D2428B55700EB320A /* L3_Lysakov.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = L3_Lysakov.xcodeproj; path = ../L3_Lysakov/L3_Lysakov.xcodeproj; sourceTree = "<group>"; };
+		7E85707C483124FDECCA3C67 /* L5_Lysakov.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = L5_Lysakov.xcodeproj; path = ../L5_Lysakov/L5_Lysakov.xcodeproj; sourceTree = "<group>"; };
 		7E85786189A6108651D888C2 /* L4_Lysakov.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = L4_Lysakov.xcodeproj; path = ../L4_Lysakov/L4_Lysakov.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +84,7 @@
 				22C0EAE72424C92C00EB320A /* L1_Lysakov.xcodeproj */,
 				22C0EACB2424C8CF00EB320A /* Products */,
 				7E85786189A6108651D888C2 /* L4_Lysakov.xcodeproj */,
+				7E85707C483124FDECCA3C67 /* L5_Lysakov.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +116,14 @@
 			isa = PBXGroup;
 			children = (
 				22C0EB242428B55800EB320A /* L3_Lysakov */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E857213327C949151FE28F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E8579C3748DA0FBA97EFA80 /* L5_Lysakov */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,6 +199,10 @@
 					ProductGroup = 7E8578678512641C6A01B632 /* Products */;
 					ProjectRef = 7E85786189A6108651D888C2 /* L4_Lysakov.xcodeproj */;
 				},
+				{
+					ProductGroup = 7E857213327C949151FE28F6 /* Products */;
+					ProjectRef = 7E85707C483124FDECCA3C67 /* L5_Lysakov.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -217,6 +238,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = L4_Lysakov;
 			remoteRef = 7E85722EFBE839E19D98FD5A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E8579C3748DA0FBA97EFA80 /* L5_Lysakov */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = L5_Lysakov;
+			remoteRef = 7E857C682CBE6E1BE8D96C11 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
