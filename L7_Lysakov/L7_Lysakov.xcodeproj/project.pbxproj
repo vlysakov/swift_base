@@ -128,6 +128,7 @@
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../L8_Lysakov\"/**";
 			};
 			name = Debug;
 		};
@@ -189,6 +190,7 @@
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../L8_Lysakov\"/**";
 			};
 			name = Release;
 		};
